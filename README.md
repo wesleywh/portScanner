@@ -5,10 +5,13 @@ This is multi-threaded so it will create a new thread for each port. Currently t
 
 #Example
 an example of how you can run this is as follows:
+
 $> python port_scanner.py -H <HOST_IP> -p <LIST OF PORTS>
+
 $> python port_scanner.py -H 192.168.XXX.XXX -p 1-500
 
 or you can list ports individually
+
 $> python port_scanner.py -H 192.168.XXX.XXXX -p 1 2 3 67 500
 
 #What To Expect
